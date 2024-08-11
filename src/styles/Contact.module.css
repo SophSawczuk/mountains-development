@@ -1,0 +1,184 @@
+.Title {
+    margin-left: 1.7em;
+    margin-top: 15vh;
+}
+
+.WrapperContact{
+    display: flex;
+    margin-bottom: 20vh;
+
+}
+
+.ContactContainer {
+    width: 50%;
+}
+
+
+
+.Input {
+   display: block;
+    margin-top: 0.6em;
+    margin-left: 2em;
+    border-collapse: collapse;
+    width: 45vw;
+}
+
+
+.Input input {
+    width: 45vw;
+    height: 3em;
+    background-color: #F2F2F2;
+    border-style: none;
+    margin-top: 0.6em;
+    padding-left: 1em;
+    color: #6B6B6B;
+    font-family:'Montserrat', sans-serif;
+}
+
+.MessageInput {
+    height: 6em !important;
+    width: 45vw;
+    background-color: #F2F2F2;
+    border-style: none;
+    margin-top: 0.6em;
+    padding-left: 1em;
+    color: #6B6B6B;
+    font-family:'Montserrat', sans-serif;
+    padding-top: 1em;
+    resize: none;
+}
+
+
+.Errors {
+    color: red;
+    font-size: small;
+}
+
+
+.Input span {
+    width: 45vw;
+}
+
+.SubmitButton {
+    background-color: black;
+    width: 46vw;
+    border-radius: 0%;
+    margin-left: 2.5em;
+    justify-content: center;
+    font-size: small;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1em;
+    color: white;
+    border-style: none;
+}
+
+
+.WrapperContactInfo {
+    display: inline-block;
+    margin-left: 3em;
+    margin-top: 5vh;
+}
+
+.WrapperIcons {
+    display: inline-block;
+    width: 90%;
+}
+
+.Block {
+    display: flex;
+    color: white;
+    background-color: black;
+    margin-bottom: 1em;
+    padding: 1em 0 1em 2em;
+    font-size: small;
+    align-items: center;
+    box-shadow: 2px 2px 3px rgb(104, 104, 104);
+    width: 40vw;
+}
+
+.Block p {
+    align-self: center;
+}
+
+.Icon {
+    font-size: x-large;
+    padding-right: 0.5em;
+}
+
+.Reminder {
+    width: 80%;
+    margin-top: 5vh;
+    font-style: italic;
+    color: #8d9cb7;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) { 
+    .Title {
+        margin-top: 15vh;
+    }
+
+    .WrapperContact {
+        display: inline-block;
+    }
+    .Input {
+        margin-left: 2em;
+        width: 90vw;
+    }
+
+    .Input input {
+        width: calc(100% - 3em);
+    }
+
+    .MessageInput {
+        width: calc(90vw - 3em);
+       
+    }
+
+    .SubmitButton {
+        margin-top: 1em;
+        width: 83vw;
+    }
+
+    .ContactContainer {
+        width: 100%;
+    }
+
+    .WrapperContactInfo {
+        width: 100%;
+        margin-top: 25vh;
+        margin-left: 2em;
+        width: 90vw;
+    }
+
+    .Reminder {
+        position: absolute;
+        top: 72vh;
+        /* margin-top: 0; */
+    }
+}
+
+@media (768px <= width <= 1080px) {
+    .Block {
+        width:35vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .Reminder {
+        padding-top: 15vh;
+    }
+
+    .WrapperContactInfo {
+        margin-top: 25vh;
+    }
+
+    .Block {
+      /*   width: calc(100% - 2em) */
+      width: auto;
+    }
+}

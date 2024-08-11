@@ -1,0 +1,97 @@
+.Desktop {
+    /* background-color:  rgba(255, 255, 255, 0.3); */
+    /* background-color: #293d57; */
+    /* background-color:  rgba(36, 62, 101, 0.3); */
+    background-color: #586479;
+    color: #ffffff;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+
+.IconNav {
+    align-self: center;
+    font-size: x-large;
+    padding-left: 1em;
+}
+
+.Desktop h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size:large;
+   /*  padding-left: 3vw; */
+    padding-left: 1vw;
+    align-items: center;
+    color: white;
+}
+.List {
+    display:flex;
+    min-width: 600px;
+    justify-content: space-around;
+}
+li {
+    list-style-type: none;
+}
+
+a :hover {
+    color: rgb(229, 229, 229);
+}
+
+
+a {
+    /* color: #343434; */
+    color: white;
+    text-decoration: none;
+    align-self: center;
+}
+.Mobile {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .Desktop {
+        display: none;
+    }
+    .Mobile {
+        display: flex;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+    }
+    .LogosWrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .ContainerMobile {
+        background-color: #586479;
+        color: white;
+        height: min-content;
+        width: 100vw;
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Burguer {
+        height: min-content;
+        background-color: black;
+    }
+    .MoDe {
+        font-size: large;
+        width: min-content;
+        margin-left: 1em;
+    }
+
+}
+
+
+@media (768px <= width <= 1080px) {
+    .IconNav {
+        display: none;
+    }
+}
+

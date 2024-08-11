@@ -1,0 +1,253 @@
+.FirstBlock {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.Landscape {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}
+
+@supports(object-fit: contain){
+    .Landscape{
+        height: 100vh;
+        object-fit: cover;
+        object-position: center 45%;
+    }
+
+    .ImgThirdBlock {
+        object-fit: cover;
+        object-position: center 45%;
+    }
+}
+
+.Wrapper {
+    margin-left: 5vw;
+}
+.Title {
+    color: white;
+    margin: 25vh 0 15px 0;
+    width: min-content;
+}
+.Subtitle {
+    color:white;
+    width: 300px;
+}
+
+.SecondBlock{
+    height: 100vh;
+    display: flex;
+}
+
+.TextSecondBlock {
+    width: 50vw;
+    background-color: #7C8CA5;
+    color: white;
+}
+
+.ImageRoom {
+    width: 50vw;
+}
+
+.ListSecondBlock {
+    margin-top: 150px;
+    width: 70%;
+    font-size: large;
+    margin-left: 2em;
+    
+}
+
+
+.ListSecondBlock li {
+    margin-bottom: 2em;
+}
+
+.ListSecondBlock li::before {
+    content: '•'; /* Contenido del punto */
+    /* position: absolute; */
+    color: white; /* Color del punto */
+    font-size: large;
+    margin-right: 0.5em;
+}
+
+.Importancia {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 120vh;
+    width: 25vw;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 1em 1em 1em 2em;
+    font-size:x-large;
+    font-weight: bolder;
+    color: rgb(58, 65, 89);
+    text-align:right;
+}
+
+.ThirdBlock {
+    height: 100vh;
+    display:flex;
+}
+
+.ImgThirdBlock {
+    width: 30vw;
+}
+
+.WrapperBenefits {
+    background-color: #7C8CA5;
+    color: white;
+    width: 70vw;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 60px;
+    font-size: large;
+}
+
+.WrapperParagraph {
+    height: 15vh;
+    width: 15vw;
+    
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 10% 3em 15% 3em;
+    text-align: center;
+    justify-self: center; /* Centra horizontalmente */
+    align-self: center; /* Centra verticalmente */
+    font-size: large;
+    font-weight: bold;
+}
+
+
+.WhyUs {
+    position: absolute;
+    z-index: 1;
+    left: 7vw;
+    top: 210vh;
+    width: 20vw;
+    font-size:x-large;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-align:right;
+}
+
+
+@media (768px <= width <= 1080px) {
+    .ListSecondBlock {
+        font-size: medium;
+    }
+
+    .WhyUs {
+        font-size: larger;
+    }
+   .WrapperParagraph {
+        font-size: medium;
+        height: 120px;
+        width: 150px;
+   }
+
+   .Importancia h3 {
+    font-size: x-large;
+   }
+
+}
+
+@media (max-width: 768px) {
+    .Title {
+        font-size: 2.5em;
+    }
+
+    .Subtitle {
+        font-size: medium;
+    }
+
+    .SecondBlock {
+        display: block;
+    }
+
+    .ImageRoom {
+        position: absolute;
+        top: 100vh;
+        width: 100%;
+        height: 35vh;
+    }
+
+    @supports(object-fit: contain){
+        .ImageRoom {
+            object-fit: cover;
+            object-position: center 45%;
+        }
+        
+    }
+    .Importancia {
+        top: 115vh;
+        font-size: medium;
+        left: 0;
+        width: 60vw;
+    }
+
+    .TextSecondBlock {
+        width: auto;
+        margin-top: 35vh;
+        height: fit-content;
+        padding-top: 5vh;
+    }
+
+    .ListSecondBlock {
+        margin-top: 0;
+        padding-left: 0;
+        width: 80%;
+        padding-bottom: 5vh;
+        margin-bottom: 0;
+    }
+    .ListSecondBlock li {
+        font-size: small;
+    }
+    .SecondBlock {
+        height: fit-content;
+    }
+
+    .ThirdBlock {
+        display: block;
+    }
+
+    .ImgThirdBlock {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .WhyUs {
+        top: 197vh;
+        font-size: large;
+    }
+    .WhyUs {
+        width: 50vw;
+        text-align: left;
+        left: 5vw;
+    }
+
+    .ThirdBlock {
+        height: fit-content;
+        width: auto;
+        background-color: #7C8CA5;
+        padding-bottom: 5vh;
+    }
+
+    .WhyMD {
+        font-size: small;
+    }
+
+    .WrapperParagraph {
+        width: 35vw;
+        padding: 15% 1em 15% 1em;
+    }
+    
+    .WrapperBenefits {
+        justify-content: center;
+        width: auto;
+        padding-top: 5vh;
+    }
+}

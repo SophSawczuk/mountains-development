@@ -1,0 +1,14 @@
+.Container {
+    background-color: #586479;
+    color: white;
+    height: min-content;
+    width: 100vw;
+    position: absolute;
+   /*  margin-top: 45vh; */
+    text-align: center;
+    z-index: 3;
+}
+
+.Container h5 {
+    padding: 0.4em 0 0.4em 0;
+}

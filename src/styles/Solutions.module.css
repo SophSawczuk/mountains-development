@@ -1,0 +1,122 @@
+.Title {
+    color: #7B7B7B;
+    margin: 15vh 0 0 5vw;
+    font-size:xx-large;
+}
+.Wrapper {
+    display: flex;
+}
+.Img {
+    width: 20vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.Card {
+    display: flex;
+    background-color: #F5F5F5;
+    padding: 2em;
+    margin: 2em 0 0 5vw;
+    /* width: calc(90vw - 4em); */
+    width: 60vw;
+    border-radius: 10px;
+}
+
+.ImgPreview {
+    width: 30vw;
+    border-radius: 15px;
+}
+
+.ContentCard {
+    margin-left: 2em;
+}
+
+.WrapperCardTitle {
+    display: flex;
+    margin-top: 10vh;
+    
+}
+
+.NameDesign {
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.NameDesignColor {
+    font-size: x-large;
+    font-weight: bold;
+    color: #4567A7;
+    margin:  0;
+    padding: 0 0 0 0.3em;
+}
+
+.Paragraph {
+    color: #7B7B7B;
+    width: 90%;
+    margin-top: 3vh;
+}
+
+.Button {
+    height: 3em;
+    width: 100%;
+    border-style: none;
+    background-color: #7C8CA5;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 5vh;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.Link :hover {
+    cursor: pointer;
+    color: white;
+}
+
+@supports(object-fit: contain){
+    .ImgPreview{
+        object-fit: cover;
+        object-position: center 45%;
+    }
+    
+    
+}
+
+@media (768px <= width <= 1080px) {
+    .WrapperCardTitle {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Img {
+        display: none;
+    }
+
+    .Title {
+        font-size: x-large;
+    }
+
+    .Card {
+        display: block;
+        padding: 1em;
+        width: calc(100% - 4em);
+        margin-left: 1em;
+        margin-bottom: 5vh;
+    }
+
+    .ImgPreview {
+        width: 100%;
+    }
+
+    .WrapperCardTitle {
+        margin-top: 2em;
+    }
+
+    .ContentCard {
+        margin-left: 1em;
+    }
+}

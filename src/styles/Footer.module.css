@@ -1,0 +1,70 @@
+.Wrapper {
+    height: fit-content;
+    background-color: black;
+    color:white;
+    font-size: small;
+    /* margin-top: 10vh; */
+    padding-top: 5vh;
+}
+
+.Wrapper hr {
+    width: 80vw;
+    
+}
+
+.WrapperList {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.WrapperList p {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.WrapperList :hover {
+    color: grey;
+}
+
+.Copyright {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: end;
+    margin-right: 10vw;
+    padding-bottom: 2em;
+    font-style: italic;
+    color: grey;
+}
+
+
+@media (max-width: 768px) {
+    .Wrapper {
+        margin-top: 0;
+        padding-top: 5vh;
+        height: fit-content;
+    }
+   .ContainerFlex {
+    display: flex;
+    justify-content: center;
+   }
+    
+    .WrapperList {
+        width: auto;
+        display:inline-grid;
+        font-size: smaller;
+        text-align: center;
+        justify-items: center;
+    }
+
+    .WrapperList p {
+       margin-bottom: 1.5em; 
+       text-align: center;
+    }
+
+    .Copyright {
+        margin-top: 8vh;
+        font-size: smaller;
+    }
+}
