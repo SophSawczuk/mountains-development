@@ -68,8 +68,8 @@ export default function Contact() {
 
             Swal.fire({
                 icon: 'success',
-                title: 'Success',
-                text: 'Mensaje enviado con éxito',
+                title: 'Mensaje enviado',
+                text: 'Nos comunicaremos en la brevedad',
             })
             setInput({
                 name: "",

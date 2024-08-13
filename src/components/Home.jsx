@@ -2,6 +2,7 @@ import alpine from "../images/alpine.jpg"
 import style from "../styles/Home.module.css"
 import room from "../images/room.png"
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
 
@@ -27,6 +28,7 @@ const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
                 <div className={style.Wrapper}>
                     <h1 className={style.Title}>Mountains Development</h1>
                     <h3 className={style.Subtitle}>Descubre nuestras soluciones en desarrollo web</h3>
+                    <Link to="/solutions"><button className={style.Btn}>Descubir soluciones</button></Link>
                 </div>
             </div>
             <div className={style.SecondBlock}>

@@ -5,12 +5,14 @@ import Solutions from "./components/Solutions"
 import Contact from "./components/Contact"
 import DiseñoSur from "./components/DiseñoSur"
 import Footer from "./components/Footer"
+import ScrollToTop from "./assets/ScrollToTop"
 
 function App() {
 
   return (
     <>
     <NavBar/>
+    <ScrollToTop/>
     <Routes>
       <Route exact path="/" element={<Home/>}/>
       <Route path="/solutions" element={<Solutions/>}/>

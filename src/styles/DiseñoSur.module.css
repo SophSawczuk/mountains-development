@@ -7,6 +7,7 @@
     margin: 12vh 0 7vh 1em;
     font-style: italic;
     display: flex;
+    text-decoration: underline;
 }
 
 a {
@@ -59,10 +60,12 @@ a {
 
 .Video {
     width: 60vw;
-    height: 70vh;
+/*     height: 70vh; */
     /* justify-content: flex-end; /* Horizontalmente */
     align-self: flex-start;     /* Verticalmente */
-    object-position: top;
+    object-position: center;
+    margin-top: 10vh;
+
 }
 
 .BlockTwo {
@@ -116,7 +119,7 @@ a {
     background-color: #4567A7;
     border-radius: 10px;
     border-style: none;
-    padding: 1.5em 0 1em 0;
+    padding: 1em 0 1em 0;
     align-self: center;
     margin-left: 30%;
  
@@ -266,6 +269,14 @@ a {
     display: none;
 }
 
+.Descuento {
+    color: red !important; 
+   /*  font-size: small; */
+    text-decoration: line-through;
+    margin: 0 !important;
+    font-weight: bold;
+}
+
 @media (768px <= width <= 1080px) {
     /* .Lista {
         font-size: small;
@@ -346,7 +357,7 @@ a {
     }
 
     .BlockTwo {
-        padding-top: 5vh;
+        padding-top: 10vh;
         height: fit-content;
     }
 
@@ -374,7 +385,7 @@ a {
     }
 
     .BlockThree {
-        padding-top: 5vh;
+        padding-top: 10vh;
         height: fit-content;
     }
 

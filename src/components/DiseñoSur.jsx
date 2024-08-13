@@ -41,7 +41,8 @@ export default function DiseñoSur() {
                 </div>
                 <h2 className={style.Subtitle}>Precio desarrollo (pago único)</h2>
                 <div className={style.Card}>
-                    <h2 className={style.Price}>$150.000</h2>
+                    <p className={style.Descuento}>Antes: $150.000</p>
+                    <h2 className={style.Price}>$35.000</h2>
                     <hr />
                     <div className={style.WrapperDetailsDevelopment}>
                         <div className={style.Section}>
@@ -68,11 +69,13 @@ export default function DiseñoSur() {
                     <hr/>
                     <button onClick={() => {navigate("/contact"); }} className={style.ButtonAdd}>Adquirir</button>
                 </div>
+           
             </div>
             <div className={style.BlockThree}>
                 <div className={style.Title}>
-                    <h2 className={style.NameDesign}>DISEÑO </h2> <h2 className={style.NameDesignColor}>SUR </h2> <h2 className={style.NameDesign}>- Planes de mantenimiento</h2>
+                    <h2 className={style.NameDesign}>DISEÑO </h2> <h2 className={style.NameDesignColor}>SUR </h2> <h2 className={style.NameDesignTwo}>- Planes de mantenimiento</h2>
                 </div>
+                <h2 className={style.Subtitle}>Planes de mantenimiento</h2>
                 <div className={style.WrapperCards}>
                     <div className={style.CardMaintanence}>
                         <div className={style.Plan}><p>Básico</p></div>
