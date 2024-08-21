@@ -196,7 +196,7 @@ a {
 
 .CardMaintanenceDark {
     width: fit-content;
-    height: fit-content;
+    /* height: fit-content; */
     border-radius: 10px;
     box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
     padding: 1.5em;
