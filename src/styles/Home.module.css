@@ -269,6 +269,8 @@
         justify-content: center;
         width: auto;
         padding-top: 5vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
     .Btn {
         width: fit-content;

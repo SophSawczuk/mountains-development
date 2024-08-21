@@ -64,7 +64,7 @@ a {
     /* justify-content: flex-end; /* Horizontalmente */
     align-self: flex-start;     /* Verticalmente */
     object-position: center;
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
 
 }
 

@@ -137,8 +137,8 @@ export default function Contact() {
                             )}         
                     </div>
                     <div className={style.Input}>
-                        <span>Número de teléfono</span>                        
-                            <input type="tel" id="telephone" name="telephone"  value={input.telephone} placeholder="+54(223)504-7367" onChange={(e) => handleChange(e)}/>
+                        <span>Número de teléfono. Ejemplo: +54(223)123-4567</span>                        
+                            <input type="tel" id="telephone" name="telephone"  value={input.telephone} placeholder="+54(223)123-4567" onChange={(e) => handleChange(e)}/>
                             {errorMessage === true && errors.telephone && (
                                 <p className={style.Errors}>{errors.telephone}</p>
                             )}         

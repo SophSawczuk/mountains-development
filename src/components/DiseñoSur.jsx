@@ -41,8 +41,8 @@ export default function DiseñoSur() {
                 </div>
                 <h2 className={style.Subtitle}>Precio desarrollo (pago único)</h2>
                 <div className={style.Card}>
-                    <p className={style.Descuento}>Antes: $150.000</p>
-                    <h2 className={style.Price}>$35.000</h2>
+                 {/*    <p className={style.Descuento}>Antes: $150.000</p> */}
+                    <h2 className={style.Price}>$45.000</h2>
                     <hr />
                     <div className={style.WrapperDetailsDevelopment}>
                         <div className={style.Section}>
