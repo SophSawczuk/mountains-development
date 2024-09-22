@@ -71,6 +71,12 @@ export default function Contact() {
                 title: 'Mensaje enviado',
                 text: 'Nos comunicaremos en la brevedad',
             })
+            fbq('track', 'Lead', {
+                content_name: 'Formulario de Contacto', // Cambia esto si es necesario
+                name: input.name,
+                email: input.email
+
+            });
             setInput({
                 name: "",
                 email: "",
