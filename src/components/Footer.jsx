@@ -25,6 +25,7 @@ export default function Footer() {
                     <Link to="/" onClick={(e) => scrollToTop(e)}><p>Inicio</p></Link>
                     <Link to="/solutions"><p>Soluciones</p></Link>
                     <Link to="/contact"><p>Contacto</p></Link>
+                    <Link to="/privacypolicy">Políticas de Privacidad</Link>
                 </div>
             </div>
             <p className={style.Copyright}>@2024 Mountains Development</p>
