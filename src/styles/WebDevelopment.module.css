@@ -1,0 +1,243 @@
+/* ------------ BANNER ------------ */
+
+.Banner {
+    background-image: linear-gradient(rgba(88, 100, 121, 0.64), rgba(88, 100, 121, 0.64)), url(C:\Users\sofis\Documents\MountainsDevelopment\src\images\web-development-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    background-size: cover;
+    width: calc(99vw - 2em);
+    padding: 4em 0 4em 2em;
+    margin-top: 10vh;
+    color: white;
+}
+
+/* ------------ SOLID CODE ----------- */
+.Solid_Code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #282948;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+}
+
+.Solid_Code h3 {
+    color: #586479;
+    font-style: italic;
+    margin-top: 2em;
+}
+
+.Solid_Code h2 {
+    width: 30vw;
+    margin-top: 0.5em;
+}
+
+.Solid_Code p {
+    width: 50vw;
+    margin-bottom: 2em;
+}
+
+/* ------------ CARACTERISTICAS ------------ */
+.Caracteristicas {
+    display: flex;
+    background-color: #F1F1F1;
+    padding: 4em;
+    justify-content: center;
+}
+
+.Caracteristicas_Item {
+    display: flex;
+    flex-direction: column;
+    color: #282948;
+    margin-left: 4em;
+    margin-right: 4em;
+    text-align: center;
+    align-items: center;
+}
+
+.Caracteristicas_Item img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 2em;
+}
+
+/* --------- MEDIDA --------- */
+.Medida {
+    display: flex;
+}
+
+.Medida img {
+    width: 60vw !important;
+    height: 80vh;
+    object-fit: cover;
+    display: block;
+}
+
+.Medida_Content {
+    padding: 6em;
+    color: #282948;
+}
+
+.Medida_Content h3 {
+    color: #586479;
+    font-style: italic;
+}
+
+.Medida_Content h2 {
+    margin-bottom: 2em;
+}
+
+
+/* ------------- RESPONSIVE ------------ */
+.Responsive {
+    display: flex;
+    background-color: #586479;
+    color: white;
+}
+
+.Responsive img {
+    width: 30vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.Responsive_Content {
+    width: 50vw;
+    margin-left: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Responsive_Content h2 {
+    margin-top: 0;
+}
+
+/* ------------ REDESIGN ------------- */
+.Redesign {
+    background-color: #282948;
+    color: white;
+    display: flex;
+    padding: 6em 10em 6em 8em;
+}
+
+.Redesign h2 {
+    width: 30vw;
+}
+
+.Redesign_Content {
+    margin-left: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Redesign_Content p {
+    margin-bottom: 1em;
+}
+
+/* ---------- CALIDAD ---------- */
+.Calidad {
+    display: flex;
+}
+
+.Calidad_Content {
+    display: flex;
+    flex-direction: column;
+    color: #282948;
+    padding: 6em;
+}
+
+.Calidad_Content h3 {
+    color: #586479;
+    font-style: italic;
+}
+
+.Calidad img {
+    width: 40vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+/* ---------- INTEGRACION ----------- */
+.Integracion {
+    background-color: #586479;
+    color: white;
+    display: flex;
+    padding: 6em 10em 6em 8em;
+}
+
+.Integracion h2 {
+    width: 30vw;
+    align-self: center;
+}
+
+.Integracion_Content {
+    margin-left: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Integracion_Content p {
+    margin-bottom: 1em;
+}
+
+/* ----------- CANAL ----------- */
+.Canal {
+    display: flex;
+}
+
+.Canal_Chart {
+    display: flex;
+    flex-direction: column;
+    padding: 6em;
+    width: 40vw;
+}
+
+.Canal_Chart h3 {
+    color: #586479;
+    font-style: italic;
+}
+
+.Canal_Chart img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 2em;
+}
+
+.Canal_Content {
+    color: #282948;
+    padding: 4em;
+    align-self: center;
+}
+
+/* ------------ MAGIA ------------ */
+.Magia {
+    display: flex;
+    background-color: #282948;
+    justify-content: center;
+    padding: 6em;
+}
+
+.Magia_Item {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 15vw;
+    align-items: center;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.Magia_Item img {
+    width: 50px;
+    height: 50px;
+}
+
+.Magia_Item h4 {
+    padding: 2em;
+    width: 60%;
+}

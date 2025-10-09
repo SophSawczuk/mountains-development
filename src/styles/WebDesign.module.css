@@ -1,0 +1,213 @@
+.Banner {
+    background-image: linear-gradient(rgba(88, 100, 121, 0.64), rgba(88, 100, 121, 0.64)), url(C:\Users\sofis\Documents\MountainsDevelopment\src\images\web-design-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: calc(99vw - 2em);
+    padding: 4em 0 4em 2em;
+    margin-top: 10vh;
+    color: white;
+    /*  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); */
+}
+
+.History {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
+}
+
+.History h2 {
+    color: #282948;
+    font-size: 2em;
+    margin: 2em 0 0 0;
+    width: 35vw;
+    text-align: center;
+}
+
+.History h3 {
+    color: #586479;
+    font-style: italic;
+    margin-bottom: 2em;
+}
+
+.History_Wrapper {
+    display: flex;
+    width: calc(99vw - 8em);
+    padding: 0 4em 0 4em;
+}
+
+.History_Description_Title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.History_Description_Title h4 {
+    color: #282948;
+    font-size: 1.3em;
+    width: 80%;
+}
+
+.History_Description_Title img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1em;
+}
+
+.History_Description_Block p {
+    margin-bottom: 2em;
+    width: 80%;
+    color: #282948;
+}
+
+.History_Img {
+    margin-bottom: 2em;
+
+}
+
+/* --------- FLEXIBILE DESIGN ---------- */
+
+.Flexible_Design {
+    width: 99vw;
+    background-image: url(C:\Users\sofis\Documents\MountainsDevelopment\src\images\web-design-banner-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 4em 0 5em 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.Flexible_Design h2 {
+    width: 40vw;
+    text-align: center;
+}
+
+.Flexible_Design_Content {
+    display: flex;
+    margin-top: 2em;
+}
+
+.Flexible_Design_Content img {
+    height: 50px;
+    width: 50px;
+}
+
+.Flexible_Design_Content p {
+    width: 50vw;
+    font-size: 1.1em;
+    text-align: start;
+    margin-left: 1em;
+}
+
+/* -----------CARACTERISTICS-------------- */
+.Caracteristics {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4em;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+.Caracteristics_Block {
+    display: flex;
+    margin-bottom: 4em;
+    align-items: center;
+}
+
+.Caracteristics_Block_Title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #282948;
+    text-align: center;
+    width: 20vw;
+}
+
+.Caracteristics_Block_Title img {
+    margin-bottom: 2em;
+}
+
+.Caracteristics_Block_Description {
+    width: 50vw;
+    margin-left: 2em;
+    color: #282948;
+
+}
+
+/* ------------- RESPONSIVE ------------ */
+.Responsive {
+    display: flex;
+    background-color: #586479;
+    color: white;
+}
+
+.Responsive img {
+    width: 30vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.Responsive_Content {
+    width: 50vw;
+    margin-left: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Responsive_Content h2 {
+    margin-top: 0;
+}
+
+/* ------------ REDESIGN ------------- */
+.Redesign {
+    background-color: #282948;
+    color: white;
+    display: flex;
+    padding: 6em 10em 6em 8em;
+}
+
+.Redesign h2 {
+    width: 30vw;
+}
+
+.Redesign_Content {
+    margin-left: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Redesign_Content p {
+    margin-bottom: 1em;
+}
+
+/* ------------- CONTENT ------------- */
+
+.Content {
+    padding: 4em;
+    display: flex;
+    color: #282948;
+}
+
+.Content img {
+    width: 30vw;
+    margin-right: 4em;
+}
+
+.Content_Description {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Content_Description p {
+    margin-bottom: 2em;
+}

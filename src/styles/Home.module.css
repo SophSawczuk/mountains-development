@@ -3,6 +3,7 @@
     overflow: hidden;
     position: relative;
 }
+
 .Landscape {
     position: absolute;
     top: 0;
@@ -10,8 +11,8 @@
     z-index: -1;
 }
 
-@supports(object-fit: contain){
-    .Landscape{
+@supports(object-fit: contain) {
+    .Landscape {
         height: 100vh;
         object-fit: cover;
         object-position: center 45%;
@@ -26,17 +27,260 @@
 .Wrapper {
     margin-left: 5vw;
 }
-.Title {
+
+.Title1 {
     color: white;
     margin: 25vh 0 15px 0;
-    width: min-content;
-}
-.Subtitle {
-    color:white;
-    width: 300px;
 }
 
-.SecondBlock{
+.Title2 {
+    color: white;
+    margin: 0vh 0 15px 0;
+}
+
+.Subtitle {
+    color: white;
+    width: 30vw;
+}
+
+.Description {
+    color: white;
+    width: 30vw;
+    margin: 1em 0 1em 0;
+
+}
+
+/* ----------- EXPERIENCE ----------- */
+.Experience {
+    display: flex;
+    background-color: white;
+    padding: 4em;
+    color: #282948;
+    justify-content: space-around;
+}
+
+.Experience_Description {
+    padding-right: 2em;
+    width: 50%;
+
+}
+
+.Experience_Description h3 {
+    color: #586479;
+}
+
+.Experience_Description h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.Experience_Description p {
+    margin-bottom: 1em;
+}
+
+.Experience img {
+    height: 70vh;
+    width: auto;
+}
+
+/* ---------- HIGHLIGHTS ------------ */
+.Highlights {
+    background-image: url(C:\Users\sofis\Documents\MountainsDevelopment\src\images\highlights.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%;
+    width: 39vw;
+    display: flex;
+    height: 50vh;
+    color: white;
+    justify-content: space-between;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    align-items: center;
+    text-align: center;
+}
+
+.Highlight p {
+    font-weight: bold;
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+.SegundoBloque {
+    background-color: #F1F1F1;
+    width: 100vw;
+    padding-top: 8vh;
+    padding-bottom: 10vh;
+    text-align: center;
+    align-items: center;
+}
+
+.TituloSegundoBloque {
+    color: #282948;
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+}
+
+.SubtituloSegundoBloque {
+    color: #586479;
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 8vh;
+}
+
+.CardsSegundoBloque {
+    display: flex;
+    justify-content: space-around;
+}
+
+.CardSegundoBloque {
+    background-color: white;
+    color: #282948;
+    width: 20vw;
+    border-radius: 14px;
+    text-align: start;
+}
+
+.ImgCardSegundoBloque {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.WrapperCardSegundoBloque {
+    padding: 0 1em 2em 1em;
+}
+
+.TercerBloque {
+    background-color: #586479;
+    width: 100vw;
+    padding-top: 8vh;
+    padding-bottom: 10vh;
+    text-align: center;
+    align-items: center;
+}
+
+.TituloTercerBloque {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+}
+
+.SubtituloTercerBloque {
+    color: #B8C1CC;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+}
+
+.CardContainerTercerBloque {
+    background-color: white;
+    border-radius: 15px;
+    width: 15vw;
+    padding: 1em 1.5em 1.5em 1.5em;
+}
+
+.WrapperTituloTercerBloque {
+    display: flex;
+}
+
+.WrapperTituloTercerBloque h3 {
+    width: min-content;
+    text-align: start;
+    margin: 0.8em 0 0 0.5em;
+    color: #282948;
+}
+
+.LogoCardTercerBloque {
+    width: 60px;
+    height: 60px;
+}
+
+.CardContainerTercerBloque p {
+    text-align: start;
+    color: #282948;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.BtnCardTercerBloque {
+    width: 100%;
+    border-style: none;
+    background-color: #282948;
+    color: white;
+    font-weight: bold;
+    padding: 0.8em 2em 0.8em 2em;
+}
+
+.CardsTercerBloque {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8vh;
+}
+
+.Btn {
+    height: 3em;
+    width: 20vw;
+    border-style: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 2vh;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.Btn:hover {
+    cursor: pointer;
+}
+
+.CuartoBloque {
+    background-color: white;
+    display: flex;
+}
+
+.ContenidoCuartoBloque {
+    width: 60vw;
+}
+
+.ImgCuartoBloque {
+    width: 40vw;
+    height: 90vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+.ContenidoCuartoBloque h3 {
+    color: #282948;
+
+    margin: 10vh 0 0 1em;
+    font-size: 2em;
+}
+
+.Frase {
+    font-weight: bold;
+    border-left: 4px solid #282948;
+    padding-left: 16px;
+    color: #282948;
+    width: 80%;
+    margin-top: 5vh;
+}
+
+.ItemsCuartoBloque {
+    margin-top: 5vh;
+    margin-left: 1em;
+    width: 80%;
+}
+
+.ItemsCuartoBloque li {
+    color: #282948;
+    list-style: disc;
+    margin-bottom: 1em;
+}
+
+/* .SecondBlock{
     height: 100vh;
     display: flex;
 }
@@ -65,9 +309,9 @@
 }
 
 .ListSecondBlock li::before {
-    content: '•'; /* Contenido del punto */
-    /* position: absolute; */
-    color: white; /* Color del punto */
+    content: '•'; 
+  
+    color: white; 
     font-size: large;
     margin-right: 0.5em;
 }
@@ -115,8 +359,8 @@
     border-radius: 15px;
     padding: 10% 3em 15% 3em;
     text-align: center;
-    justify-self: center; /* Centra horizontalmente */
-    align-self: center; /* Centra verticalmente */
+    justify-self: center; 
+    align-self: center; 
     font-size: large;
     font-weight: bold;
 }
@@ -172,7 +416,7 @@
     width: fit-content;
    }
 }
-
+ */
 
 
 @media (max-width: 768px) {
@@ -195,13 +439,14 @@
         height: 35vh;
     }
 
-    @supports(object-fit: contain){
+    @supports(object-fit: contain) {
         .ImageRoom {
             object-fit: cover;
             object-position: center 45%;
         }
-        
+
     }
+
     .Importancia {
         top: 115vh;
         font-size: medium;
@@ -223,9 +468,11 @@
         padding-bottom: 5vh;
         margin-bottom: 0;
     }
+
     .ListSecondBlock li {
         font-size: small;
     }
+
     .SecondBlock {
         height: fit-content;
     }
@@ -243,6 +490,7 @@
         top: 197vh;
         font-size: large;
     }
+
     .WhyUs {
         width: 50vw;
         text-align: left;
@@ -264,7 +512,7 @@
         width: 35vw;
         padding: 15% 1em 15% 1em;
     }
-    
+
     .WrapperBenefits {
         justify-content: center;
         width: auto;
@@ -272,6 +520,7 @@
         padding-left: 5vw;
         padding-right: 5vw;
     }
+
     .Btn {
         width: fit-content;
     }
