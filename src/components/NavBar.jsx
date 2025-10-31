@@ -36,7 +36,8 @@ export default function () {
                     <Link to="/web-design"><b>Web Design</b></Link>
                     <Link to="/web-development"><b>Web Development</b></Link>
                     <Link to="/seo"><b>SEO</b></Link>
-                    <Link to="/solutions"><li><b>Soluciones</b></li></Link>
+                    <Link to="/maintenance"><b>Mantenimiento</b></Link>
+                    <Link to="/blog"><b>Blog</b></Link>
                     <Link to="/contact"><li><b>Contacto</b></li></Link>
                 </ul>
             </div>

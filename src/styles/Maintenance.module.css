@@ -1,0 +1,168 @@
+/* ------------ BANNER ------------ */
+
+.Banner {
+    background-image: linear-gradient(rgba(88, 100, 121, 0.64), rgba(88, 100, 121, 0.64)), url(C:\Users\sofis\Documents\MountainsDevelopment\src\images\mantenimiento-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center 60%;
+    background-size: cover;
+    width: calc(99vw - 2em);
+    padding: 4em 0 4em 2em;
+    margin-top: 10vh;
+    color: white;
+}
+
+/* --------- MEDIDA --------- */
+.Medida {
+    display: flex;
+}
+
+.Medida img {
+    width: 60vw !important;
+    height: 80vh;
+    object-fit: cover;
+    display: block;
+}
+
+.Medida_Content {
+    padding: 6em;
+    color: #282948;
+}
+
+.Medida_Content h3 {
+    color: #586479;
+    font-style: italic;
+}
+
+.Medida_Content h2 {
+    margin-bottom: 2em;
+}
+
+/* ------------ MAGIA ------------ */
+.Magia {
+    display: flex;
+    background-color: #282948;
+    justify-content: center;
+    padding: 6em;
+}
+
+.Magia_Item {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 20vw;
+    align-items: center;
+    text-align: center;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.Magia_Item img {
+    width: 50px;
+    height: 50px;
+}
+
+.Magia_Item h4 {
+    padding: 2em;
+    width: 70%;
+}
+
+/* ------------- CUSTOMER SERVICE ------------- */
+
+.Customer_Service {
+    padding: 4em;
+    display: flex;
+    color: #282948;
+}
+
+.Customer_Service img {
+    width: 30vw;
+    margin-right: 4em;
+}
+
+.Customer_Service_Description {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Customer_Service_Description p {
+    margin-bottom: 2em;
+}
+
+/* ------------- SPEED ------------ */
+.Speed {
+    display: flex;
+    background-color: #586479;
+    color: white;
+}
+
+.Speed img {
+    width: 30vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.Speed_Content {
+    width: 50vw;
+    margin-left: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Speed_Content h2 {
+    margin-top: 0;
+}
+
+/* ------------ ACOMPAÑAMIENTO ------------- */
+.Acompañamiento {
+    background-color: #282948;
+    color: white;
+    display: flex;
+    padding: 6em 10em 6em 8em;
+}
+
+.Acompañamiento h2 {
+    width: 30vw;
+}
+
+.Acompañamiento_Content {
+    margin-left: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Acompañamiento_Content p {
+    margin-bottom: 1em;
+}
+
+/* ----------- GROWING ----------- */
+.Growing {
+    display: flex;
+}
+
+.Growing_Chart {
+    display: flex;
+    flex-direction: column;
+    padding: 6em;
+    width: 40vw;
+}
+
+.Growing_Chart h3 {
+    color: #586479;
+    font-style: italic;
+}
+
+.Growing_Chart img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 2em;
+}
+
+.Growing_Content {
+    color: #282948;
+    padding: 4em;
+    align-self: center;
+}

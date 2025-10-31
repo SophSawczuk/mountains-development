@@ -6,6 +6,8 @@ import palette from "../images/icon-palette.png"
 import multimedia from "../images/icon-multimedia.png"
 import friends from "../images/friends.jpg"
 import hotel from "../images/hotel.jpg"
+import analisis from "../images/analisis.jpg"
+import star from "../images/star.png"
 
 export default function Seo() {
     return (
@@ -62,6 +64,36 @@ export default function Seo() {
                 <div className={style.Redesign_Content}>
                     <p>Creamos y ajustamos los contenidos de tu página para responder a las preguntas que suelen hacer tus futuros huéspedes, como horarios, servicios, políticas o recomendaciones. </p>
                     <p>Esto mejora tu visibilidad orgánica porque Google reconoce que tu web da respuestas relevantes, y además genera confianza en quien está buscando dónde alojarse.</p>
+                </div>
+            </div>
+            <div className={style.Strategy}>
+                <img src={analisis} />
+                <div className={style.Strategy_Description}>
+                    <h2>Estrategia de SEO hecha por humanos, apoyada por IA</h2>
+                    <p>Nuestra estrategia une el análisis y criterio humano con herramientas de inteligencia artificial para detectar oportunidades, optimizar contenidos y realizar ajustes precisos. </p>
+                    <p>Esto nos permite ofrecer un SEO eficiente, adaptado a tus necesidades y a las tendencias del mercado.</p>
+                </div>
+            </div>
+            <div className={style.Magia}>
+                <div className={style.Magia_Item}>
+                    <img src={star} />
+                    <h4>Reportes mensuales</h4>
+                    <p>Transparencia y datos claros para que veas el progreso</p>
+                </div>
+                <div className={style.Magia_Item}>
+                    <img src={star} />
+                    <h4>Posicionamiento continuo y esgtratégico</h4>
+                    <p>Monitoreamos los resultados regularmente, analizamos las métricas y ajustamos la estrategia</p>
+                </div>
+                <div className={style.Magia_Item}>
+                    <img src={star} />
+                    <h4>Keywords con enfoque turístico</h4>
+                    <p>Analizamos en profundidad las frases y términos que tus potenciales huéspedes utilizan al buscar alojamiento</p>
+                </div>
+                <div className={style.Magia_Item}>
+                    <img src={star} />
+                    <h4>Google Maps, Google Travel y búsquedas locales</h4>
+                    <p>Estar bien ubicado en estos resultados aumenta la visibilidad y facilita que los viajeros te encuentren y elijan.</p>
                 </div>
             </div>
 

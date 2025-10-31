@@ -1,0 +1,135 @@
+/* ------------- WRAPPER -------------- */
+.Wrapper {
+    margin-bottom: 5vh;
+}
+
+/* ------------ BANNER ------------ */
+
+.Banner {
+    background-image: linear-gradient(rgba(88, 100, 121, 0.64), rgba(88, 100, 121, 0.64)), url(C:\Users\sofis\Documents\MountainsDevelopment\src\images\blog-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: left 60%;
+    background-size: cover;
+    width: calc(99vw - 2em);
+    padding: 4em 0 4em 2em;
+    margin-top: 10vh;
+    color: white;
+}
+
+/* ------------- FILTERS -------------- */
+.Filters {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.Filter_Btn {
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 12vw;
+    padding: 0.5em;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #586479;
+    color: white;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.Filter_Btn:hover {
+    cursor: pointer;
+}
+
+/* ------------ CARDS ------------- */
+
+.Cards {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-auto-flow: row;
+    gap: 1rem;
+    justify-content: center;
+    overflow: visible;
+
+}
+
+.Card {
+    width: 20vw;
+    height: 55vh;
+    flex-direction: column;
+    color: #282948;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.Card:hover {
+    transform: scale(1.05);
+    z-index: 1;
+    /* se “superpone” sobre las demás */
+    color: #282948 !important;
+
+}
+
+.Card * {
+    transition: none;
+    /* evita que cada elemento tenga su propia animación */
+}
+
+.Card a:hover {
+    color: #282948 !important;
+}
+
+.Card a,
+.Card a:hover {
+    color: #282948 !important;
+    text-decoration: none;
+}
+
+
+
+.Card img {
+    width: 100%;
+    height: 25vh;
+    contain: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.Card_Content_Wrapper {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.Card_Content_Wrapper:hover {
+    color: #282948 !important;
+}
+
+.Card_Content_Wrapper p:hover {
+    color: #282948 !important;
+}
+
+.Card_Content_Wrapper h3:hover {
+    color: #282948 !important;
+}
+
+.Tag_Wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.Tag {
+    border-radius: 20px;
+    background-color: #586479;
+    padding: 0.5em 1em 0.5em 1em;
+    width: max-content;
+    color: white;
+    font-size: small;
+}
+
+.Tag_Wrapper p {
+    color: #586479;
+    font-size: small;
+    margin-left: 0.5em;
+}

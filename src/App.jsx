@@ -10,6 +10,9 @@ import PrivacyPolicy from "./components/PrivacyPolicy"
 import WebDesign from "./components/WebDesign"
 import WebDevelopment from "./components/WebDevelopment"
 import Seo from "./components/Seo"
+import Maintenance from "./components/Maintenance"
+import BlogBoard from "./components/BlogBoard"
+import Blog from "./components/Blog"
 
 function App() {
 
@@ -23,6 +26,9 @@ function App() {
         <Route path="/web-design" element={<WebDesign />} />
         <Route path="/web-development" element={<WebDevelopment />} />
         <Route path="/seo" element={<Seo />} />
+        <Route path="/maintenance" element={<Maintenance />} />
+        <Route path="/blog" element={<BlogBoard />} />
+        <Route path="/blog/:url" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/diseñosur" element={<DiseñoSur />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />

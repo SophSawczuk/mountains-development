@@ -3,7 +3,7 @@
     margin-top: 15vh;
 }
 
-.WrapperContact{
+.WrapperContact {
     display: flex;
     margin-bottom: 20vh;
 
@@ -16,7 +16,7 @@
 
 
 .Input {
-   display: block;
+    display: block;
     margin-top: 0.6em;
     margin-left: 2em;
     border-collapse: collapse;
@@ -32,7 +32,7 @@
     margin-top: 0.6em;
     padding-left: 1em;
     color: #6B6B6B;
-    font-family:'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .MessageInput {
@@ -43,7 +43,7 @@
     margin-top: 0.6em;
     padding-left: 1em;
     color: #6B6B6B;
-    font-family:'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding-top: 1em;
     resize: none;
 }
@@ -60,7 +60,7 @@
 }
 
 .SubmitButton {
-    background-color: black;
+    background-color: #586479;
     width: 46vw;
     border-radius: 0%;
     margin-left: 2.5em;
@@ -90,12 +90,12 @@
 .Block {
     display: flex;
     color: white;
-    background-color: black;
+    background-color: #586479;
     margin-bottom: 1em;
     padding: 1em 0 1em 2em;
     font-size: small;
     align-items: center;
-    box-shadow: 2px 2px 3px rgb(104, 104, 104);
+    /*     box-shadow: 2px 2px 3px rgb(104, 104, 104); */
     width: 40vw;
 }
 
@@ -117,7 +117,7 @@
 }
 
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     .Title {
         margin-top: 15vh;
     }
@@ -125,6 +125,7 @@
     .WrapperContact {
         display: inline-block;
     }
+
     .Input {
         margin-left: 2em;
         width: 90vw;
@@ -136,7 +137,7 @@
 
     .MessageInput {
         width: calc(90vw - 3em);
-       
+
     }
 
     .SubmitButton {
@@ -162,9 +163,9 @@
     }
 }
 
-@media (768px <= width <= 1080px) {
+@media (768px <=width <=1080px) {
     .Block {
-        width:35vw;
+        width: 35vw;
     }
 }
 
@@ -178,7 +179,7 @@
     }
 
     .Block {
-      /*   width: calc(100% - 2em) */
-      width: auto;
+        /*   width: calc(100% - 2em) */
+        width: auto;
     }
 }
