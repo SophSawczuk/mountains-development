@@ -38,6 +38,7 @@ export default function Blog() {
                     <img src={item.img[0]} />
                 </div>
 
+
                 <div className={style.Block_One_Paragraph}>
                     <p >{item.content[0][0]}</p>
                     <br />
